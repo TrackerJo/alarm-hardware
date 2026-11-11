@@ -1,0 +1,25 @@
+{
+  "timeZone": "America/Indiana/Indianapolis",
+  "posixTZ": "EST5EDT,M3.2.0/2,M11.1.0/2",
+  "alarms": [
+    {
+      "id": "example-alice-alarm",
+      "ownerID": "alice",
+      "weekdays": [1, 2, 3, 4, 5],
+      "hour": 7,
+      "minute": 30,
+      "enabled": true,
+      "tone": "daybreak",
+      "dayTimes": {"3": {"hour": 8, "minute": 15}}
+    },
+    {
+      "id": "example-bob-alarm",
+      "ownerID": "bob",
+      "weekdays": [1, 2, 3, 4, 5],
+      "hour": 7,
+      "minute": 35,
+      "enabled": true,
+      "tone": "birdsong"
+    }
+  ]
+}
